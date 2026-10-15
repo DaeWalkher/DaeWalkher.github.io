@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+
+    <!-- Background Video -->
+    <video autoplay muted loop playsinline class="bg-video">
+        <source src="images/h2.mp4" type="video/mp4">
+        <!-- Fall back message if video doesn't load. -->
+         Your browser does not support the video tag.
+    </video>
+
+    <!-- Overlay so text stays readable -->
+     <div class="bg-overlay"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">Hillary K Harry</div>
+        <button class="menu-btn" id="menuBtn">&#9776;</button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html" class="current">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="assignments.html">Assignments</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <section class="intro">
+            <h1>Welcome to My Portfolio</h1>
+            <p>
+                Hi, I'm a second-year IT student at Gauteng City College. 
+                This website was created as part of my Web Development assignment.
+            </p>
+            <p>
+                Here you can find information about me, the assignments I have completed, 
+                and how to get in touch.
+            </p>
+            <a href="assignments.html" class="btn">View My Assignments</a>
+        </section>
+
+        <section class="skills-preview">
+            <h2>Skills I Have Learned</h2>
+            <div class="skill-box">
+                <h3>HTML5</h3>
+                <p>Building structured web pages using semantic elements.</p>
+            </div>
+            <div class="skill-box">
+                <h3>CSS3</h3>
+                <p>Styling web pages with colours, layouts, and responsive design.</p>
+            </div>
+            <div class="skill-box">
+                <h3>JavaScript</h3>
+                <p>Adding interactivity like form validation and menu toggles.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Hillary K Harry. Web Development Assignment.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+  
+</body>
+</html>
